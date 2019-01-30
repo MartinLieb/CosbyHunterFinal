@@ -44,7 +44,6 @@ public class BasicGameApp extends GameApplication {
     @Override
     protected void initGame(){
 
-    //    initTreasure();
         initPlayer();
         run(() -> spawnEnemy(), Duration.seconds(2));
 
@@ -61,12 +60,7 @@ public class BasicGameApp extends GameApplication {
         vars.put("enemiesKilled", 0);
     }
 
-    // private void initTreasure() {
-    //    Entity treasure = new Entity();
-    //    treasure.getPositionComponent().setValue(getWidth() / 2, getHeight() / 2);
-    //    treasure.getViewComponent().setView(new Rectangle(40, 40, Color.YELLOW));
-    //    getGameWorld().addEntity(treasure);
-    //}
+
 
     public void initPlayer() {
         player = new Entity();
@@ -202,7 +196,7 @@ public class BasicGameApp extends GameApplication {
 
         textPixels.textProperty().bind(getGameState().intProperty("pixelsMoved").asString());
 
-        getGameScene().addUINode(textScore); // add to the scene graph
+        getGameScene().addUINode(textScore);
     }
 
 
