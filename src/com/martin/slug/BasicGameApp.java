@@ -52,6 +52,7 @@ public class BasicGameApp extends GameApplication {
 
     }
 
+    // Here a few variables are set to 1 or 0 to initialize the game
     @Override
     protected void initGameVars(Map<String, Object> vars) {
         vars.put("pixelsMoved", 0);
@@ -63,6 +64,7 @@ public class BasicGameApp extends GameApplication {
 
 
 
+    // Here the player entity is built and given parameters
     public void initPlayer() {
         player = new Entity();
         player.getPositionComponent().setValue(getWidth() / 20, getHeight() / 3);
@@ -80,6 +82,7 @@ public class BasicGameApp extends GameApplication {
 
         getGameWorld().addEntity(player);
     }
+
 
     @Override
     protected void initInput(){
