@@ -22,6 +22,7 @@ import static com.almasb.fxgl.app.DSLKt.run;
 
 public class BasicGameApp extends GameApplication {
 
+    // This block sets up the basic settings for the game (height, width, version and the menu)
     @Override
     protected void initSettings(GameSettings settings) {
         settings.setWidth(800);
@@ -83,7 +84,7 @@ public class BasicGameApp extends GameApplication {
         getGameWorld().addEntity(player);
     }
 
-
+    // Here the input methods for the game are defined
     @Override
     protected void initInput(){
         Input input = getInput();
@@ -98,6 +99,7 @@ public class BasicGameApp extends GameApplication {
 
         }, KeyCode.D);
 
+        // This method allows the user to use the mouse to aim while shooting
         input.addAction(new UserAction("Shoot Space") {
             @Override
             protected void onAction(){
@@ -135,6 +137,7 @@ public class BasicGameApp extends GameApplication {
 
     }
 
+    // This block defines the physics of the game, adds audio to hits and increments the score of the player after a hit
     @Override
     protected void initPhysics() {
         getPhysicsWorld().addCollisionHandler(new CollisionHandler(EntityType.BULLET, EntityType.ENEMY) {
@@ -159,6 +162,7 @@ public class BasicGameApp extends GameApplication {
         });
     }
 
+    // This block makes the enemy move towards the player
     @Override
     protected void onUpdate(double tpf) {
         getGameWorld().getEntitiesByType(EntityType.ENEMY).forEach(enemy -> enemy.translateX(-100 * tpf));
@@ -171,6 +175,7 @@ public class BasicGameApp extends GameApplication {
         playerControl.shoot(getInput().getVectorToMouse(player.getPositionComponent().getValue()));
     }
 
+    // This block defines the parameters for the enemy
     private void spawnEnemy() {
         Entity enemy = new Entity();
         enemy.getTypeComponent().setValue(EntityType.ENEMY);
@@ -185,6 +190,7 @@ public class BasicGameApp extends GameApplication {
     }
 
 
+    // This block sets up the UI for the game, background and score
     @Override
     protected void initUI() {
         Text textPixels = new Text();
@@ -204,6 +210,7 @@ public class BasicGameApp extends GameApplication {
     }
 
 
+    // Launcher for the main class of the game
     public static void main(String[] args) {
         launch(args);
     }
