@@ -1,0 +1,176 @@
+14:29:05.365 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+14:29:05.377 [JavaFX Application Thread] DEBUG GameApplication      - Logging settings
+Title: Cosby Hunter
+Version: 0.1
+Width: 800
+Height: 600
+Fullscreen: false
+Intro: false
+Menus: true
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+14:29:05.378 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+14:29:05.386 [JavaFX Application Thread] INFO  FXGL                 - FXGL-0.5.4 on DESKTOP
+14:29:05.386 [JavaFX Application Thread] INFO  FXGL                 - Source code and latest versions at: https://github.com/AlmasB/FXGL
+14:29:05.387 [JavaFX Application Thread] INFO  FXGL                 -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+14:29:05.387 [JavaFX Application Thread] DEBUG FXGL                 - FXGL started
+14:29:05.387 [JavaFX Application Thread] DEBUG FXGL                 - Initializing FXGL
+14:29:05.423 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:05.485 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:05.587 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+14:29:05.610 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 800.0 x 600.0
+14:29:05.611 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    800.0 x 600.0
+14:29:05.611 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+14:29:05.612 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+14:29:05.615 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/fxgl_icon.png
+14:29:05.629 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+14:29:05.815 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (16.0, 39.0)
+14:29:05.815 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 800.0 x 600.0
+14:29:05.815 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+14:29:05.816 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 800.0 x 600.0
+14:29:05.816 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 816.0 x 639.0
+14:29:05.882 [ForkJoinPool.commonPool-worker-1] DEBUG FS                   - Loaded DesktopFSService
+14:29:05.883 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL                 - Loading FXGL system data
+14:29:05.888 [ForkJoinPool.commonPool-worker-1] DEBUG DesktopFSService     - Reading from: system\fxgl.bundle
+14:29:05.896 [ForkJoinPool.commonPool-worker-1] DEBUG Bundle               - Logging bundle: FXGL
+14:29:05.897 [ForkJoinPool.commonPool-worker-1] DEBUG Bundle               - FXGL.offline.timer.version.check=2019-01-30T14:15:40.930053300
+14:29:05.898 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL                 - Initializing state machine and application states
+14:29:05.899 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:05.905 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:05.912 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:05.915 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:05.918 [ForkJoinPool.commonPool-worker-1] DEBUG GameScene            - Game scene initialized: 800x600
+14:29:05.927 [ForkJoinPool.commonPool-worker-1] DEBUG GameWorld            - Game world initialized
+14:29:05.985 [ForkJoinPool.commonPool-worker-1] DEBUG PhysicsWorld         - Physics world initialized: appHeight=600, physics.ppm=50,0
+14:29:06.010 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:06.015 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/properties/languages/english.properties
+14:29:06.017 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.017 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.018 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.025 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/textures/particles/trace_horizontal.png
+14:29:06.048 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.049 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL.Menu            - createMenuBodyMainMenu()
+14:29:06.054 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.055 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.057 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.057 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.057 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL.Menu            - createOptionsMenu()
+14:29:06.057 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.058 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.059 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.060 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.061 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.061 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.062 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.062 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.063 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.064 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.065 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.065 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.066 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.067 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.067 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.067 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.068 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/textures/particles/smoke.png
+14:29:06.121 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+14:29:06.122 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.122 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.123 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.123 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.124 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/textures/particles/trace_horizontal.png@64.0x64.0
+14:29:06.125 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.126 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL.Menu            - createMenuBodyGameMenu()
+14:29:06.127 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.127 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG FXGL.Menu            - createOptionsMenu()
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.128 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.129 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.130 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.130 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.130 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.130 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.130 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.131 [ForkJoinPool.commonPool-worker-1] DEBUG AssetLoader          - Loading from cache: /assets/textures/particles/smoke.png@128.0x128.0
+14:29:06.172 [JavaFX Application Thread] DEBUG FXGL                 - Running preInit()
+14:29:06.188 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+14:29:06.188 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+14:29:06.188 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Right - D
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Shoot Space - Space
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Left - A
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Up - W
+14:29:06.189 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Down - S
+14:29:06.190 [JavaFX Application Thread] DEBUG MenuEventHandler     - generateDefaultProfile()
+14:29:06.190 [JavaFX Application Thread] DEBUG MenuEventHandler     - Creating default profile
+14:29:06.190 [JavaFX Application Thread] DEBUG EventBus             - Firing event: SaveEvent
+14:29:06.191 [JavaFX Application Thread] DEBUG AudioPlayer          - Saving data to profile
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: audio
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - audio.musicVolume=0.5
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - audio.soundVolume=0.5
+14:29:06.192 [JavaFX Application Thread] DEBUG Input                - Saving data to profile
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: input
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.Move Right=D
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.Screenshot=P
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.System info dump=CTRL+9
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.Restart=CTRL+R
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.Move Up=W
+14:29:06.192 [JavaFX Application Thread] DEBUG Bundle               - input.Dev Options=CTRL+0
+14:29:06.193 [JavaFX Application Thread] DEBUG Bundle               - input.Move Left=A
+14:29:06.193 [JavaFX Application Thread] DEBUG Bundle               - input.Move Down=S
+14:29:06.193 [JavaFX Application Thread] DEBUG Bundle               - input.Shoot Space=Space
+14:29:06.196 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: gameplayStats
+14:29:06.196 [JavaFX Application Thread] DEBUG Bundle               - gameplayStats.playtime=0
+14:29:06.197 [JavaFX Application Thread] DEBUG AchievementManager   - Saving data to profile
+14:29:06.197 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: achievement
+14:29:06.198 [JavaFX Application Thread] INFO  FXGL                 - FXGL initialization took: 0,811 sec
+14:29:06.201 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+14:29:06.202 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+14:29:06.202 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:29:06.203 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+14:29:06.216 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> MainMenuState
+14:29:06.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.220 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.221 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.223 [JavaFX Application Thread] DEBUG SaveLoadManager      - Checking profiles dir: profiles/
+14:29:06.223 [JavaFX Application Thread] DEBUG SaveLoadManager      - Loading profile names
+14:29:06.224 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.224 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.225 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.226 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+14:29:06.226 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:29:06.226 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+14:29:06.296 [JavaFX Application Thread] DEBUG AppStateMachine      - Pop state: DialogSubState
+14:29:06.297 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:29:06.297 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState <- DialogSubState
+14:29:06.297 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/properties/languages/english.properties
+14:29:06.298 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.298 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from cache: /assets/ui/fonts/VarelaRound-Regular.ttf
+14:29:06.299 [JavaFX Application Thread] DEBUG AppStateMachine      - Push state: DialogSubState
+14:29:06.299 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+14:29:06.299 [JavaFX Application Thread] DEBUG AppStateMachine      - MainMenuState -> DialogSubState
+14:29:53.324 [JavaFX Application Thread] DEBUG FXGL                 - Exiting FXGL
+14:29:53.324 [JavaFX Application Thread] DEBUG FXGL                 - Shutting down background threads
+14:29:53.324 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+14:29:53.327 [JavaFX Application Thread] DEBUG DesktopFSService     - Writing to: system\fxgl.bundle
+14:29:53.330 [JavaFX Application Thread] DEBUG FXGL                 - Closing logger and exiting JavaFX
