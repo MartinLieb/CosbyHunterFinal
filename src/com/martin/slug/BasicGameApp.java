@@ -41,6 +41,7 @@ public class BasicGameApp extends GameApplication {
     public PlayerControl playerControl;
 
 
+    // Here the parameters for the game are set, the enemy spawn timer is set and the music loop is started
     @Override
     protected void initGame(){
 
